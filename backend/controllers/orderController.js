@@ -1,7 +1,7 @@
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js"
 import Stripe from "stripe";
-const stripe = new Stripe("sk_test_51QzE23R3z1zyApxODJWj2Tpkf0BsWNahMNji0W3AXc6P3xXSdw9VYDdB8imYHP0KUhFapntZ7sODgKHAHx2BIVcB00uFqqTOJ3");
+const stripe = new Stripe("your-stripe-id");
 
 // config variables
 const currency = "inr";
